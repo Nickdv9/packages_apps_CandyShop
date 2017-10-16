@@ -53,4 +53,11 @@
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
 
+    <ListPreference
+            android:key="ticker_mode"
+            android:entries="@array/ticker_mode_entries"
+            android:entryValues="@array/ticker_mode_values"
+            android:summary="%s"
+            android:title="@string/ticker_mode_title" />
+
 </PreferenceScreen>
