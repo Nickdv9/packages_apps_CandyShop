@@ -20,4 +20,10 @@
     android:title="@string/navigation_category"
     android:layout="@layout/tab" >
 
+    <Preference
+        android:key="navbar"
+        android:fragment="org.candy.candyshop.fragments.NavbarSettings"
+        android:title="@string/navbar_title"
+        android:summary="@string/navbar_summary" />
+
 </PreferenceScreen>
